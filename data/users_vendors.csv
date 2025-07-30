@@ -1,0 +1,5 @@
+user_id,vendor_id,display_name,is_enabled
+1,2,The Healthy Brand - Downtown,false
+1,4,The Pizza House - Business Bay,false
+2,3,Tasty Burgers - Business Bay,false
+2,1,The Healthy Brand - Business Bay,false

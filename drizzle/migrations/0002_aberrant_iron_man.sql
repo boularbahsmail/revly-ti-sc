@@ -1,0 +1,1 @@
+ALTER TABLE "user_vendors" ALTER COLUMN "is_enabled" DROP DEFAULT;
