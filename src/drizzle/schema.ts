@@ -6,13 +6,15 @@ import {
   primaryKey,
 } from "drizzle-orm/pg-core";
 
+const today = new Date().toISOString().split("T")[0];
+
 // USERS
 export const users = pgTable("users", {
   id: text("id").primaryKey(),
   email: text("email").notNull(),
   displayName: text("display_name"),
   isActive: integer("is_active").default(1),
-  createdAt: text("created_at"),
+  createdAt: text("created_at").default(today),
 });
 
 // CHAINS
@@ -28,7 +30,7 @@ export const vendors = pgTable("vendors", {
   chainId: text("chain_id"),
   latitude: text("latitude"),
   longitude: text("longitude"),
-  createdAt: text("created_at"),
+  createdAt: text("created_at").default(today),
 });
 
 // USER_VENDORS

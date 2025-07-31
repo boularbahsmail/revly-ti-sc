@@ -64,6 +64,20 @@
       "when": 1753891229985,
       "tag": "0008_ordinary_aqueduct",
       "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1753964919238,
+      "tag": "0009_thin_proudstar",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1753965102247,
+      "tag": "0010_tough_molly_hayes",
+      "breakpoints": true
     }
   ]
 }

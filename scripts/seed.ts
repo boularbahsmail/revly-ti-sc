@@ -87,11 +87,11 @@ const seed = async () => {
     }))
   );
 
-  console.log("✅ Seeded successfully");
+  console.log("✅ DB Seeded successfully");
   process.exit();
 };
 
 seed().catch((err) => {
-  console.error("❌ Seeding failed:", err);
+  console.error("❌ DB Seeding failed:", err);
   process.exit(1);
 });
